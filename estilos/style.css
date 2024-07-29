@@ -7,9 +7,7 @@
 
 body,html{
     
-    background:  url('../imagens/girasol-m.jpg') center top no-repeat fixed;
-    background-size: cover;
-    
+   background-color: blueviolet;
 }
 main{
     display: block;
@@ -19,32 +17,47 @@ main{
 
     
 }
-section{
+section#login{
     position:absolute;
     top:50%;
     left: 50%;
     transform:translate(-50% ,-50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: auto;
+
     }
-    h1{
+ h1{
         text-align: center;
         padding: 10px;
         font-size: 2em;
     }
-    form>p{
-        padding: 5px;
-    }
 
-#login{
+ section#login > div#img{
+        background:  url('../imagens/girasol-m.jpg') center top no-repeat fixed;
+        background-size: cover;
+        height: 200px;
+        display: block;
+     
+}
+
+section#login > div#formulario{
     display: block;
  margin: auto;
- background-color: #00000046;
  width: 250px;
 height: auto ;
-color: white;
+color:black;
   padding: 20px;
    border: 1px solid white;
-   border-radius: 10px;
-}input{
+   border-radius: 20px;
+}
+div#formulario > p{
+    padding: 10px;
+    margin: 0px;
+}
+
+input{
     padding: 5px;
     border-radius: 5px;
 }
