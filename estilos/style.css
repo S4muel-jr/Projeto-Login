@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
 body,html{
     
@@ -11,23 +14,25 @@ body,html{
 main{
     display: block;
     position:relative;
+    height: 95dvh;
+    width: 95dvw;
 
     
 }
 section{
-position:absolute;
-top:50%;
-left: 50%;
-transform:translate(-50% ,-50%);
-}
-h1{
-    text-align: center;
-    padding: 20px;
-    font-size: 2em;
-}
-form>p{
-    padding-left: 5px;
-}
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50% ,-50%);
+    }
+    h1{
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+    }
+    form>p{
+        padding: 5px;
+    }
 
 #login{
     display: block;
@@ -36,7 +41,7 @@ form>p{
  width: 250px;
 height: auto ;
 color: white;
-   padding: 20px;
+  padding: 20px;
    border: 1px solid white;
    border-radius: 10px;
 }input{
