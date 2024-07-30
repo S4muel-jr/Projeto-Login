@@ -19,6 +19,12 @@
 
 }
 @media screen and ( min-width:992px) {
+
+    body{
+        background:url('../imagens/pexels-quang-nguyen-vinh-222549-14036071\ \(1\).jpg') center center no-repeat fixed ; 
+        background-size: cover;
+        height: 100dvh;
+    }
     section#login{
         width: 900px;
 
