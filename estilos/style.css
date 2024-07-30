@@ -3,11 +3,12 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body,html{
     
-   background-color: blueviolet;
+   background-color: aqua;
 }
 main{
     display: block;
@@ -28,13 +29,12 @@ section#login{
     height: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+    
 
     }
- h1{
-        text-align: center;
-        padding: 10px;
-        font-size: 2em;
-    }
+ 
 
  section#login > div#img{
         background:  url('../imagens/girasol-m.jpg') center top no-repeat fixed;
@@ -43,10 +43,21 @@ section#login{
         display: block;
      
 }
+div#formulario > h1{
+    
+        text-align: center;
+        margin-bottom: 10px;
+        
+    
+}
+div#formulario > p{
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
 
 section#login > div#formulario{
-    display: block;
- margin: auto;
+display: block;
  width: 250px;
 height: auto ;
 color:black;
@@ -54,13 +65,12 @@ color:black;
    border: 1px solid white;
    border-radius: 20px;
 }
-div#formulario > p{
-    padding: 10px;
-    margin: 0px;
-}
+
+
+
 
 input{
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
 
