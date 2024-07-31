@@ -24,6 +24,9 @@
     div#formulario > p{
         font-size: 1em;
     }
+    form > div.campo{
+        margin-bottom: 10px;
+    }
 
 }
 @media screen and ( min-width:992px) {  /*configurações telas grandes*/
@@ -60,6 +63,7 @@
     }
     form > div.campo {
         width: 80%;
+        margin-bottom: 15px;
     }
      
     
