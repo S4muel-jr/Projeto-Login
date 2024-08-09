@@ -11,7 +11,6 @@
 body,html{ /* configurações do corpo*/
     
    background-color: aqua;
-  
     background:url('../imagens/horizonte.jpg') center center no-repeat fixed ; 
     background-size: cover;
     height: 100dvh;
@@ -29,13 +28,13 @@ section#login{  /* configurações conteiner do login*/
     position:absolute;
     top:50%;
     left: 50%;
-    transform:translate(-50% ,-50%);
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.356);
     width: 250px;
     height: 510px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transform:translate(-50% ,-50%);
     transition: width .5s, height .5s;
     transition-timing-function: ease;
     
